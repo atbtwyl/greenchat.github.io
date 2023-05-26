@@ -1,0 +1,122 @@
+.sub-user1 {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.sub-user1__column:first-child {
+    display: flex;
+    align-items: center;
+}
+
+
+.sub-user1__column:last-child {
+    font-size: 11px;
+    padding:6px;
+}
+
+.sub-user1__favmusic {
+    color: rgb(0, 255, 202);
+}
+
+.sub-user1__profilephoto img {
+    width:60px;
+    height: 60px;
+    border-radius: 40%;
+
+    margin-right: 15px;
+}
+
+.sub-user1__text {
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-weight: 400;
+}
+
+.sub-user1__name {
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+
+    margin-bottom: 10px;
+}
+
+.sub-user1__status {
+    margin-bottom: 5px;
+    color: rgba(255,255,255,0.4);
+}
+
+.sub-user1__nametype1 {
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.sub-user1__nothing {
+    display: none;
+}
+
+.sub-user1__column-bhdno {
+    border: none;
+    border-radius: 0px;
+}
+
+.sub-user1__bhdno {
+    display: flex;
+    align-items: center;
+}
+
+.sub-user1__bhdno i{
+    margin-left: 5px;
+    margin-bottom: 2px;
+}
+
+.sub-user1__bhdno span{
+    margin-bottom: 4px;
+}
+
+
+
+
+.sub-user1__column-green {
+    border: 1px solid rgb(0, 255, 202);
+    border-radius: 10px;
+}
+
+.sub-user1__namefont {
+    font-size: 18px;
+}
+
+.sub-user1__statusfont {
+    color: rgba(255,255,255,0.8);
+}
+
+.sub-user1__time {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    font-size: 14px;
+}
+
+.sub-user1__time-time {
+    margin-bottom: 10px;
+}
+
+.sub-user1__time-msg {
+    background-color: var(--yellow);
+    color: black;
+
+    width: 25px;
+    height: 25px;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+}

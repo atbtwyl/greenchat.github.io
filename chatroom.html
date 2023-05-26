@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <title>GREEN SHOPPING</title>
+  </head>
+
+  <body class="bgcolorsetting" id="chat-screen">
+    <!-- 💛 MAIN TOP -->
+    <div class="maintop maintop-white">
+      <div class="maintop__column">
+        <span class="maintop__column-time">05:11</span>
+      </div>
+      <div class="maintop__column">
+        <i class="fa-solid fa-wifi fa-sm"></i>
+        <i class="fa-solid fa-phone-volume fa-sm"></i>
+        <i class="fa-solid fa-signal fa-sm"></i>
+        <span class="maintop__column-battery"> 100% </span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+      </div>
+    </div>
+
+    <!-- 💛 screen header -->
+    <header class="screen-header">
+      <div class="screen-header__column screen-header__column-set">
+        <span class="screen-header__back">
+          <a href="chat.html">
+            <i class="fa-solid fa-chevron-left"></i>
+          </a>
+        </span>
+        <span class="screen-header__title">Tiger Woods</span>
+      </div>
+      <div class="screen-header__column">
+        <span><i class="fa-solid fa-magnifying-glass"></i></span>
+        <span><i class="fa-solid fa-bars"></i></span>
+      </div>
+    </header>
+
+    <main class="main-chat start-from">
+      <!--DATE STAMP-->
+      <div class="chat__timestamp">Saturday, May 11, 2023</div>
+
+      <!--MSG RECEIVED-->
+      <div class="message-row">
+        <img src="photo/user1.jpg" />
+        <div class="message-row__content">
+          <span class="message-row__author">Tiger Woods</span>
+          <div class="message__info">
+            <span class="message__bubble">Hi, I am Tiger!</span>
+            <span class="message__time">05:11</span>
+          </div>
+        </div>
+      </div>
+
+      <!--MSG SENT-->
+      <div class="message-row message-row__own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Welcome Back, Tiger!</span>
+            <span class="message__time">05:11</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--MSG INPUT BOX-->
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus fa-xl"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Write a message..." />
+        <i class="fa-regular fa-face-smile fa-xl"></i>
+        <button>
+          <i class="fa-solid fa-arrow-up"></i>
+        </button>
+      </div>
+    </form>
+
+    <div id="no-mobile">
+      <img src="photo/screen.jpg" />
+      <span> YOUR SCREEN IS TOO BIG :< </span>
+    </div>
+
+    <!-- 💛
+        EMOTICON IMPORT CODE -->
+    <script
+      src="https://kit.fontawesome.com/3867bde971.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

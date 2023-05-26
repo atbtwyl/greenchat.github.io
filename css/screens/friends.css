@@ -1,0 +1,47 @@
+@keyframes hideSplashScreen {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+#splash-screen {
+    background-color: var(--darkgreen);
+    position:absolute;
+    height: 100vh;
+    width: 100vw;
+    top:0;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120px;
+    color: white;
+
+    animation: hideSplashScreen 1s ease-in-out forwards;
+    animation-delay: 1s;
+
+    z-index: 99;
+}
+
+#splash-screen__index {
+    background-color: var(--darkgreen);
+    position:absolute;
+    height: 100vh;
+    width: 100vw;
+    top:0;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120px;
+    color: white;
+
+    animation: hideSplashScreen 1s ease-in-out forwards;
+    animation-delay: 2s;
+
+    z-index: 99;
+}

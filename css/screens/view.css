@@ -1,0 +1,19 @@
+.view-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    margin-top: 100px;
+
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 30px;
+    color: var(--yellow);
+}
+
+.view-contents img {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+}

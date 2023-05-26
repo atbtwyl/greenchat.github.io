@@ -1,0 +1,116 @@
+.shopping-category {
+    display:flex;
+    justify-content: space-between;
+
+    margin-top: 30px;
+}
+
+.shopping-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shopping-icon i {
+    background-color: var(--beige);
+    color: var(--darkgreen2);
+    padding: 25px 15px;
+    border-radius: 20px;
+    margin-bottom: 6px;
+}
+
+.shopping-icon span {
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size:14px;
+    color: var(--beige);
+}
+
+
+.shopping-serachbox {
+    display: flex;
+    align-items: center;
+
+    margin-top: 30px;
+    padding: 10px 20px;
+    height: 30px;
+    background-color: var(--darkgreen2);
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.shopping-search i {
+    margin-right: 10px;
+}
+
+.todayhotdeal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 40px;
+}
+
+.hotdeal__title span {
+    font-family: 'Sunflower', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--beige);
+}
+
+.hotdeal__link a {
+    color: var(--yellow);
+    
+}
+
+.hotdeal__link {
+    margin-top:15px;
+}
+
+.hotdeal-product {
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hotdeal-product__adlink {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.hotdeal-product__adimg {
+    border-radius: 10px;
+}
+
+.productname {
+    margin-top: 8px;
+    color: var(--beige);
+    font-size: 16px;
+}
+
+.price {
+    display:flex;
+    flex-direction: row;
+    margin-top: 8px;
+}
+
+.pricename {
+    background-color: var(--darkgreen2);
+    color: var(--beige);
+    padding: 5px 8px;
+
+    font-size: 12px;
+    border-radius: 5px;
+
+    margin-right: 10px;
+}
+
+.realprice {
+    font-size: 16px;
+    font-weight: 700;
+
+    color:var(--beige);
+}

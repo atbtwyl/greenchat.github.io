@@ -1,0 +1,32 @@
+.view-button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.view-button__btn {
+    font-family: 'Gowun Dodum', sans-serif;
+
+    border: 0;
+    line-height: 25px;
+    padding: 5px 10px;
+
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    background-color: var(--greenmain);
+
+    
+    
+    border-color: var(--greenmain);
+    transition: border-color 0.3s ease-in-out;
+
+}
+
+.view-button__btn:hover {
+    border-bottom: 4px solid var(--yellow);
+}
+
+.view-button__btn1 {
+    border-bottom: 4px solid var(--yellow);
+}
+

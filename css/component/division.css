@@ -1,0 +1,18 @@
+.divisionline {
+    border-top: var(--grey-bottom2);
+    margin: 10px 0px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: rgba(255,255,255,0.4);
+    font-size: 14px;
+}
+
+.divisionline-shop {
+    margin-top: -11px;
+    padding-top:0px;
+}

@@ -1,0 +1,49 @@
+.main-user {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color: white;
+}
+
+.main-user__column:first-child {
+    display: flex;
+    align-items: center;
+}
+
+
+.main-user__column:last-child {
+    font-size: 12px;
+    padding:6px;
+
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+
+.main-user__profilephoto img {
+    width:70px;
+    height: 70px;
+    border-radius: 40%;
+
+    margin-right: 15px;
+}
+
+.main-user__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-user__name {
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+
+    margin-bottom: 5px;
+}
+
+.main-user__status {
+    margin-bottom: 5px;
+    color: rgba(255,255,255,0.4);
+}
+

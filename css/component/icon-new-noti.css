@@ -1,0 +1,13 @@
+.icon-new-noti {
+    background-color: rgb(245, 115, 40);
+    
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+
+    position: absolute;
+    z-index: 99;
+
+    top: 60px;
+    margin-right: 4px;
+}

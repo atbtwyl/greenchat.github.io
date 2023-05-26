@@ -1,0 +1,11 @@
+:root {
+    --greenmain: rgb(65, 100, 74);
+    --darkgreen: rgb(25, 56, 32);
+    --darkgreen2: rgb(12, 31, 17);
+    --black: rgb(32, 38, 46);
+    --beige: rgb(241, 238, 221);
+    --yellow: rgb(247, 219, 106);
+
+    --grey-bottom: 1px solid rgba(0,0,0,0.2);
+    --grey-bottom2: 1px solid rgba(255,255,255,0.1);
+}

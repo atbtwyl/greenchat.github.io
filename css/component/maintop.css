@@ -1,0 +1,40 @@
+.maintop {
+    font-family: 'Gowun Dodum', sans-serif;
+    display:flex;
+    justify-content: center;
+    padding: 10px 5px;
+    
+    position:fixed;
+    box-sizing:border-box;
+    top:0;
+    width:100%;
+}
+
+.maintop-white {
+    color: white;
+}
+
+.maintop__column {
+    width: 50%;
+}
+
+.maintop__column:first-child {
+    display:flex;
+    justify-content: flex-start;
+}
+
+.maintop__column:last-child {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    position: relative;
+    z-index: 1;
+}
+
+.maintop__column i,
+.maintop__column span {
+    margin-left: 5px;
+}
+
+

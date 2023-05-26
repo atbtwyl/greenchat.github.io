@@ -1,0 +1,52 @@
+/* 
+font-family: 'Black Han Sans', sans-serif;
+font-family: 'Gowun Dodum', sans-serif;
+font-family: 'Nanum Gothic Coding', monospace;
+font-family: 'Sunflower', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gowun+Dodum&family=Nanum+Gothic+Coding:wght@400;700&family=Sunflower:wght@300;500;700&display=swap');
+
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "component/maintop.css";
+@import "component/start-from.css";
+@import "component/screen-header.css";
+@import "component/ad-top.css";
+@import "component/main-user.css";
+@import "component/sub-user1.css";
+@import "component/division.css";
+@import "component/nav-bar.css";
+@import "component/viewbtn.css";
+@import "component/shop-content.css";
+@import "component/icon-new-noti.css";
+@import "component/no-mobile.css";
+@import "component/badge.css";
+
+/* screen */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/view.css";
+@import "screens/shopping.css";
+@import "screens/more.css";
+@import "screens/setting.css";
+@import "screens/chat.css";
+
+
+body {
+    font-family: 'Nanum Gothic Coding', monospace;
+    color: var(--black);
+}
+
+.bgcolorsetting {
+    background-color: var(--greenmain);
+}
+
+.screen-header {
+    z-index: 98;
+}
+
+.maintop {
+    z-index: 99;
+}

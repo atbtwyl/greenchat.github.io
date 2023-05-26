@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <title>Welcome to GREENCHAT</title>
+  </head>
+
+  <body>
+    <!-- 💛
+        MAIN TOP -->
+    <div class="maintop">
+      <div class="maintop__column">
+        <span class="maintop__column-time">05:11</span>
+      </div>
+      <div class="maintop__column">
+        <i class="fa-solid fa-wifi fa-sm"></i>
+        <i class="fa-solid fa-phone-volume fa-sm"></i>
+        <i class="fa-solid fa-signal fa-sm"></i>
+        <span class="maintop__column-battery"> 100% </span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+      </div>
+    </div>
+
+    <main class="start-from">
+      <!-- 💛
+        LOG-IN PAGE HEADER -->
+      <header class="login-header">
+        <span class="login-header__title">그린챗을 시작합니다</span>
+        <span class="login-header__text login-header__text1">
+          사용하던 그린계정이 있다면
+        </span>
+        <span class="login-header__text login-header__text2"
+          >이메일 또는 전화번호로 로그인해 주세요.</span
+        >
+      </header>
+
+      <!-- 💛
+        LOG-IN PAGE FORM -->
+      <form method="get" class="login-form">
+        <input
+          class="login-form__textenter"
+          required
+          name="username"
+          type="text"
+          placeholder="이메일 또는 전화번호"
+        />
+        <input
+          class="login-form__textenter"
+          required
+          name="password"
+          type="password"
+          minlength="4"
+          placeholder="비밀번호"
+        />
+        <input
+          type="submit"
+          formaction="friends.html"
+          value="블루계정 로그인"
+        />
+        <input type="submit" formaction="#" value="새로운 블루계정 만들기" />
+        <a href="#">블루계정 또는 비밀번호 찾기 </a>
+      </form>
+    </main>
+
+    <div id="splash-screen__index">
+      <i class="fa-solid fa-comment"></i>
+    </div>
+
+    <div id="no-mobile">
+      <img src="photo/screen.jpg" />
+      <span> YOUR SCREEN IS TOO BIG :< </span>
+    </div>
+
+    <!-- 💛
+        EMOTICON IMPORT CODE -->
+    <script
+      src="https://kit.fontawesome.com/3867bde971.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

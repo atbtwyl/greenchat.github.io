@@ -1,0 +1,131 @@
+.wallet {
+    color: var(--darkgreen2);
+    background-color: var(--yellow);
+    
+    border-radius: 10px;
+    padding: 30px 15px;
+    padding-bottom: 15px;
+}
+
+.wallet-title {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;   
+
+    margin-bottom: 20px;
+}
+
+.wallet-title__column-text1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.wallet-title__column-text2 {
+    font-size: 14px;
+}
+
+.wallet-emoticon {
+    background-color: rgb(120,120,120);
+    color: var(--beige);
+    padding: 10px 15px;
+    border-radius: 10px;
+
+    margin-bottom:20px;
+}
+
+.wallet-emoticon a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wallet-emoticon-box__text {
+    font-size: 15px;
+}
+
+.wallet-emoticon-box__emoji i {
+    margin-right: 5px;
+}
+
+.wallet-greenpay {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 30px;
+}
+
+.wallet-greenpay__column {
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.greenpay-color {
+    color: var(--greenmain);
+}
+
+.wallet-bank {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wallet-bank__function1 {
+    padding-right:10px;
+}
+
+.wallet-bank__function2 {
+    border-right: 1px solid rgba(0,0,0,0.2);
+    border-left: 1px solid rgba(0,0,0,0.2);
+    padding:0px 15px;
+}
+
+.wallet-bank__function3 {
+    padding-left:10px;
+}
+
+.wallet-bank__function {
+    font-size: 14px;
+    font-weight: 700;
+
+    font-family: 'Gowun Dodum', sans-serif;
+    color: var(--darkgreen2);
+}
+
+.wallet-bank__purchasehistory {
+    font-size: 14px;
+    font-weight: 700;
+
+    font-family: 'Gowun Dodum', sans-serif;
+    color: var(--darkgreen2);
+}
+
+
+.more-btns {
+    margin-top: 10px;
+    color: var(--beige);
+    padding: 20px 0px;
+}
+
+.more-btns__row {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.more-btns__column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100px;
+    height: 80px;
+
+    margin-top: 15px;
+}
+
+.more-btns__emoji {
+    margin-bottom: 20px;
+    margin-top: 0px;
+}

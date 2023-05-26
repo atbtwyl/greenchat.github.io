@@ -1,0 +1,35 @@
+.setting-account {
+    display: flex;
+    align-items: center;
+}
+
+.setting-account__twoline {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.account-icon {
+    margin-bottom:10px;
+}
+
+.setting-list {
+    padding: 10px;
+    margin-bottom:20px;
+
+    font-size: 18px;
+    color: var(--beige);
+
+    border-bottom: var(--grey-bottom2);
+}
+
+.setting-list i {
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+.greenaccount {
+    margin-top: 10px;
+    font-size: 16px;
+    padding-left: 2px;
+}
